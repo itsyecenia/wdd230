@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Playfair+Display+SC:wght@900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Chettan+2&family=Lato:wght@100&family=Mr+Dafoe&family=Playfair+Display+SC:wght@900&family=Playfair+Display:wght@700&display=swap');
+
+:root {
+    --heading1-font: "Playfair Display SC";
+    --heading2-font: "Playfair Display";
+}
+
+body {
+    font-size: 16px;
+}
+
+header, footer {
+    border: 1px solid black;
+    padding: 1rem;
+    background-color: #95A78D;
+    text-align: center;
+}
+
+header, footer, main {
+    max-width: 760 px;
+    margin: 0 auto;
+}
+
+header img {
+    float: right;
+    width: 150px;
+    height: auto;
+}
+
+h1 {
+    font-family: var(--heading1-font);
+}
+
+h2 {
+    font-family: var(--heading2-font);
+    border-bottom: 3px solid black;
+    margin: 10px 0 10px 10px;
+}
+
