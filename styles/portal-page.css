@@ -1,0 +1,23 @@
+img {
+    max-width: 15%;
+}
+
+body {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 1em
+}
+
+header, footer {
+    background-color: rgb(207, 170, 203);
+    display: flex;
+    color: white;
+    padding: 1em;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: auto;
+    padding: 1em;  
+}
