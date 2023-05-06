@@ -1,0 +1,27 @@
+img {
+    max-width: 100%;
+}
+
+body {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+header, footer {
+    background-color: rgb(207, 170, 203);
+    color: white;
+    display: flex;
+}
+
+h1 {
+    padding: 1em; 
+    font-family: 'Secular One', sans-serif; 
+    text-shadow: 4px 4px 4px #7b7b7b;
+}
+
+h2 {
+    font-family: 'Encode Sans', sans-serif;
+
+}
+
