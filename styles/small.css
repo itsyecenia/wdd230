@@ -10,7 +10,10 @@ body {
 
 header, footer {
     background-color: rgb(207, 170, 203);
-    color: white;
+    color: black;
+}
+
+header {
     display: flex;
 }
 
