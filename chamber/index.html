@@ -2,43 +2,94 @@
 <html lang="en-us">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Santa Ana Chamber of Commerce Website Project">
-    <link rel="stylesheet" href="styles/small.css"/>
+    <title>Santa Ana Chamber of Commerce</title>
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@500&family=Source+Serif+Pro:wght@200&display=swap" rel="stylesheet"> 
-    <title>Santa Ana Chamber of Commerce</title>
-    <img src="images/ChamberIcon.png" alt="Santa Ana Chamber of Commerce Icon" />
-
 
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="">Join</a></li>
-                <li><a href="">Discover</a></li>
-                <li><a href="">Directory</a></li>
-                <li><a href="">Contact</a></li>
-            </ul>
-        </nav>
+        <div class="topH">
+            <div id="logonav">
+                <div id="logo">
+                <img src="images/ChamberIcon.png" alt="Santa Ana Chamber of Commerce Icon">
+                </div>
+                <nav>
+                    <button id="hamButton">&#9776;</button>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="">Join</a></li>
+                        <li><a href="">Discover</a></li>
+                        <li><a href="">Directory</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div id="social">
+                <a href="http://www.facebook.com"><img src="images/facebook.png" alt="Facebook Icon"></a>
+                <a href="http://www.linkedin.com"><img src="images/linkedin.png" alt="Linkedin Icon"></a>
+            </div>
+        </div>
+        <div class="bottomH">
+            <p><span id="Date"></span></p>
+        </div>
     </header>
     <main>
+        <div class="main-grid">
+            <div class="Event">
+                <h2>Event</h2>
+            </div>
+            <div class="Weather">
+                <h2>Weather</h2>
+            </div>
+            <div class="Join">
+                <h2>Join</h2>
+            </div>
+            <div class="Hero">
+                <h2>Hero with site name and call to action</h2>
+            </div>
+            <div class="News">
+                <h2>News Release</h2>
+            </div>
+            <div class="Spotlights">
+                <div id="Spotlight1">
+
+                </div>
+                <div id="Spotlight2">
+
+                </div>
+                <div id="Spotlight3">
+
+                </div>
+            </div>
+        </div>
+        
     </main>
     <footer> 
-        <div class="contact">
-            📍 2131 Civic Center
-            <br> Santa Ana, CA 92704
-            <br>📞 714-987-6543
-            <br> info@santanachamber.com
+        
+        <div class="address">
+            <img src="images/ChamberIcon.png" alt="Santa Ana Chamber of Commerce Icon">
+            <div id="text">
+                <b>Santa Ana Chamber of Commerce</b>
+                <p>2131 Civic Center
+                <br>Santa Ana, CA 92704</p>
             </div>
-        </footer>
+        </div>
+        <div class="contact">
+            <br> info@santanachamber.com
+            <br>📞 +(714)987-6543
+            <br><a href="https://www.google.com/maps/place/Santa+Ana,+CA/@33.7378887,-118.0346293,12z/data=!4m6!3m5!1s0x80dcdb956c823085:0xc74f843a1f1efdbc!8m2!3d33.7454725!4d-117.867653!16zL20vMGpicnI">📍Location Map </a>
+            </div>
         <div class="copyright">
             Copyright &copy;2023 Santa Ana Chamber of Commerce | All Rights Reserved | Privacy and Cookie Statement
         </div>
     </footer>
+    <script src="scripts/chamber.js"></script>
 </body>
 </html>
